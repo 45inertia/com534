@@ -16,6 +16,10 @@ class Cat (nameIn: String, ageIn: Int, weightIn: Int) {
         weight--
     }
 
+    fun eat() {
+        weight++
+    }
+
     override fun toString() : String {
         return "Name: $name Age: $age Weight: $weight"
     }
